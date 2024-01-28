@@ -6,7 +6,10 @@ const Navbar = () => {
         <span className="logo">Blog App</span>
         <ul className='list'>
             <li className="listItem">
-                <img src='' alt='' className='avatar'/>
+                <img 
+                src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cute_dog.jpg/1200px-Cute_dog.jpg?20140729055059'
+                alt=''
+                className='avatar'/>
             </li>
             <li className="listItem">Damon Jo</li>
             <li className="listItem">Logout</li>
