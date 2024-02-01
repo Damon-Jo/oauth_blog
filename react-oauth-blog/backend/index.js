@@ -4,6 +4,8 @@ const cors = require("cors");
 const passportSetup = require('./passport');
 const passport = require("passport");
 const authRoute = require("./routes/auth");
+
+require('dotenv').config();
 const app = express();
 
 app.use(
